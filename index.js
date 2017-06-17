@@ -8,7 +8,7 @@ describe('bull test', () => {
       assert(job);
       assert(job.returnvalue != null);
       setTimeout(() => {
-        promiseQueue.getJob(job.jobId).then(job => {
+        promiseQueue.getJob(job.id).then(job => {
           assert(job);
           assert(job.returnvalue != null);
           done();
