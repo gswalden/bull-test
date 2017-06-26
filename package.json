@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bull": "^2.2.6",
+    "bull": "^3.0.0-rc.3",
     "mocha": "^3.4.2"
   }
 }
